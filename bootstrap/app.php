@@ -106,7 +106,7 @@ $app->middleware([
 $app->register(Zeek\LumenDingoAdapter\Providers\LumenDingoAdapterServiceProvider::class);
 
 // Lumen Generator disabled it on production if you want
-$app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
+//  $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
